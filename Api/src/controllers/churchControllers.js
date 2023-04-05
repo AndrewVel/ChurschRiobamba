@@ -56,7 +56,7 @@ const list = async () => {
       },
     ],
   });
-  return listChurch;
+  return {list: listChurch};
 };
 
 const churchById = async (id) => {
